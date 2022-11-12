@@ -34,7 +34,7 @@ const TitleSection = styled.div`
   justify-content: space-between;
   padding: 16px 24px;
   border: 2px solid ${({ theme }) => theme.colors.primary};
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.black};
 `;
 
 const BodySection = styled.div<{
@@ -46,13 +46,13 @@ const BodySection = styled.div<{
   padding: ${({ withoutBodyPadding }) =>
     withoutBodyPadding ? '0' : '16px 24px'};
   border: 2px solid ${({ theme }) => theme.colors.primary};
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.black};
 `;
 
 const FooterSection = styled.div`
   padding: 16px 24px;
   border: 2px solid ${({ theme }) => theme.colors.primary};
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.black};
 `;
 
 export type GenericModalProps = {
