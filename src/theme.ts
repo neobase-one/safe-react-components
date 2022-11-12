@@ -8,7 +8,7 @@ const theme = {
   colors: {
     primary: '#60fc99',
     primaryLight: '#60fc99',
-    primaryHover: '#000000',
+    primaryHover: '#60fc99',
 
     secondary: '#60fc99',
     secondaryLight: '#60fc99',
