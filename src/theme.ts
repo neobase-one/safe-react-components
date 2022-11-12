@@ -8,7 +8,7 @@ const theme = {
   colors: {
     primary: '#60fc99',
     primaryLight: '#60fc99',
-    primaryHover: '#60fc99',
+    primaryHover: '#000000',
 
     secondary: '#60fc99',
     secondaryLight: '#60fc99',
@@ -29,6 +29,7 @@ const theme = {
     tag: '#60fc99',
     background: '#000',
     white: '#ffffff',
+    black: '#000000',
     warning: '#FFC05F',
     pending: '#E8663D',
 
